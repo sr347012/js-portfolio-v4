@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home-container {
+    background-color: var(--bg02);
+    color: var(--bg04);
+}
+
+.clip-svg {
+    clip-path: url(#myClip);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-text {
+    font-size: 40px;
+}
+
+.home-text>div {
+    text-shadow: 1px 1px 3px var(--bg04);
+}
+.home-text-01 {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    animation: movetext1 linear infinite 5s;
+}
+.home-text-02 {
+    position: absolute;
+    top: 200px;
+    right: 300px;
+    animation: movetext2 linear infinite 10s;
+}
+.home-text-03 {
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    animation: movetext1 linear infinite 9s;
+}
+.home-text-04 {
+    position: absolute;
+    top: 400px;
+    right: 300px;
+    animation: movetext2 linear infinite 5s;
+}
+.home-text-05 {
+    position: absolute;
+    top: 600px;
+    left: 200px;
+    animation: movetext1 linear infinite 17s;
+}
+.home-text-06 {
+    position: absolute;
+    top: 600px;
+    right: 300px;
+    animation: movetext2 linear infinite 15s;
+}
+
+@keyframes movetext1 {
+    0% {
+        left: 200px;
+    }
+
+    50% {
+        left: 100px;
+    }
+
+    100% {
+        left: 200px;
+    }
+}
+@keyframes movetext2 {
+    0% {
+        right: 300px;
+    }
+
+    50% {
+        right: 200px;
+    }
+
+    100% {
+        right: 300px;
+    }
+}
+
+:root {
+    --bg01: #59252E;
+    --bg02: #261824;
+    --bg03: #D9D0C1;
+    --bg04: #D9B282;
+    --bg05: #8C6B68;
+}
+
+.home-title-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 10px;
+    border: 2px solid var(--bg03);
+    padding: 10px;
+    margin: 10px;
+}
+
+.home-title-card>.home-iframe {
+
+}

@@ -1,0 +1,22 @@
+{
+  "name": "js-portfolio-v4",
+  "version": "1.0.0",
+  "description": "portfolio for artist sriram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sr347012/js-portfolio-v4.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Sriramachandra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sr347012/js-portfolio-v4/issues"
+  },
+  "homepage": "https://github.com/sr347012/js-portfolio-v4#readme"
+}
